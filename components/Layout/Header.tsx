@@ -30,11 +30,11 @@ const Header = () => {
             </SheetTrigger>
             <SheetContent side="left" className="w-64">
               <div className="flex flex-col gap-6 pt-6">
-                <div className="flex items-center gap-2">
+                <div className="flex items-center justify-center gap-2">
                   <Plane className="h-6 w-6 text-primary" />
                   <span className="text-xl font-bold">SkySearch</span>
                 </div>
-                <nav className="flex flex-col gap-4">
+                <nav className="flex flex-col justify-center items-center gap-4">
                   {navItems.map((item) => (
                     <a
                       key={item.label}
