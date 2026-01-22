@@ -1,6 +1,6 @@
 # SkySearch - Modern Flight Search Engine ✈️
 
-A production-ready flight search engine built with Next.js 14, shadcn/ui, Tailwind CSS v4, and Zustand.
+A production-ready flight search engine built with Next.js 16, shadcn/ui, Tailwind CSS v4, and Zustand.
 
 ## ✨ Features
 
