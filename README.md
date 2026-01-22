@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# SkySearch - Modern Flight Search Engine ✈️
 
-## Getting Started
+A production-ready flight search engine built with Next.js 14, shadcn/ui, Tailwind CSS v4, and Zustand.
 
-First, run the development server:
+## ✨ Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### ✅ Core Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- **Flight Search**: Origin, destination, dates, and passenger selection
+- **Live Price Graph**: Real-time price trends with Recharts
+- **Complex Filtering**: Simultaneous filters for stops, price, airlines, and duration
+- **Responsive Design**: Mobile-first design with fully responsive layouts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 🎨 Advanced Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Modern UI**: shadcn/ui components with Tailwind CSS v4
+- **Real-time Updates**: Filters instantly update both list and graph
+- **Smart Search**: Airport auto-complete with popular routes
+- **Price Analysis**: Historical data, trends, and predictions
+- **Best Deal Indicators**: Visual badges for best price/fastest flights
+- **Loading States**: Skeleton loaders and progress indicators
+- **Accessibility**: Full keyboard navigation and screen reader support
 
-## Learn More
+## 🛠 Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Next.js 14**: App Router with React Server Components
+- **TypeScript**: Full type safety
+- **Tailwind CSS v4**: CSS-native configuration (no config file)
+- **shadcn/ui**: Accessible, customizable UI components
+- **Zustand**: Lightweight state management
+- **Recharts**: Interactive data visualization
+- **Lucide React**: Beautiful, consistent icons
